@@ -1,14 +1,22 @@
-.background {
-    background:url(file:///D:/Assignment/web-development-assignment1/Image/background.jpg);
-    height:753px;
-}
 .bio {
-    font-family:corbel,sans-serif;
-   /* position: relative;
-    left: 26cm;
-    top: 6cm;*/
-    background-color:rgba(255, 250, 250,.2);
-    height: fit-content;
-    box-shadow: 0 0 10px white;
-    padding:5px;
+    border-left:6px solid black;
+    margin-left:80px;
+    display:grid;
+    margin-top:125px;
+    padding-left:10px;
+    width:20cm;
+    /*box-shadow: -3px 0 3px snow;*/
+}
+.name > p {
+    font-family:calibri;
+    font-size:70px;
+}
+.position {
+    font-family:calibri;
+    font-size:30px;
+}
+.about-me {
+    font-family:calibri;
+    font-size:20px;
+    text-align: justify;
 }
