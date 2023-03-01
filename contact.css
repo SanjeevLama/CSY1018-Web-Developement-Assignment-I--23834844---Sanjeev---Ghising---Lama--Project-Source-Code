@@ -45,3 +45,46 @@ button:hover {
     transform: translateY(-2px);
     background-color: #76b17b;
 }
+.social-link {
+    text-align: center;
+}
+.social-link > p,.contact-info > p {
+    font-size: 30px;
+    font-family: kristen itc;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons > a {
+    padding:15px;
+}
+.fab {
+    border-radius: 30px;
+    margin:10px;
+    font-size: 30px;
+    width:30px;
+    box-shadow: 0 10px 10px black;
+}
+.fa-instagram {
+    background-color: rgb(221, 50, 50);
+    color:yellow;
+}
+.fa-twitter {
+    background-color: white;
+    color:rgb(51, 193, 241);
+}
+.fa-facebook-f {
+    background-color: white;
+    color:blue
+}
+.fab:hover {
+    transform:translateY(-5px);
+}
+.contact-info {
+    text-align: center;
+}
+.contact-info-content {
+    font-family:arial rounded mt;
+    padding-bottom:10px;
+}
