@@ -5,18 +5,59 @@
     margin-top:125px;
     padding-left:10px;
     width:20cm;
-    /*box-shadow: -3px 0 3px snow;*/
 }
 .name > p {
-    font-family:calibri;
+    font-family: Arial Rounded MT;
     font-size:70px;
 }
 .position {
     font-family:calibri;
     font-size:30px;
+    padding-top:10px;
 }
 .about-me {
-    font-family:calibri;
+    font-family:arial;
     font-size:20px;
-    text-align: justify;
+    padding-top:10px; 
+}
+.fname {
+    position:relative;
+    bottom:3cm;
+    font-size: 0px;
+    animation-name: move-down;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    
+}
+.mname {
+    position:relative;
+    top:8cm;
+    font-size:0px;
+    animation-name: move-top;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+}
+.lname {
+    position:relative;
+    left:12cm;
+    font-size:0px;
+    animation-name: move-left;
+    animation-duration: 2s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+}
+@keyframes move-down {
+    from {bottom:3cm; font-size: 0px;}
+    to {bottom:0cm; font-size:70px}
+}
+@keyframes move-top {
+    from {top:8cm;font-size:0px;}
+    to {top:0px;font-size:70px;}
+    
+}
+@keyframes move-left {
+    from {left:12cm;font-size:0px;}
+    to {left:0px;font-size:70px;}
 }
