@@ -8,11 +8,13 @@
     row-gap: 20px;
     background-color: rgba(255,255,255,.2);
     box-shadow: 0 0 10px;
+    border-radius: 20px;
 }
 .contact-header {
     font-size: 50px;
-    font-family: kristen itc;
-    padding: 0 10px;
+    font-family: arial rounded mt;
+    border-bottom: 5px double;
+    margin: 0 10px;
 }
 .contact-form {
     text-align: center;
@@ -40,17 +42,18 @@ button {
     font-family: arial rounded mt;
     background-color: rgba(255,255,255,.2);
     padding: 5px;
+    border-radius: 10px;
 }
 button:hover {
     transform: translateY(-2px);
-    background-color: #76b17b;
+    background-color: rgb(246 197 146 / 44%);
 }
 .social-link {
     text-align: center;
 }
 .social-link > p,.contact-info > p {
     font-size: 30px;
-    font-family: kristen itc;
+    font-family: arial rounded mt;
 }
 .social-icons {
     display: flex;
@@ -64,7 +67,7 @@ button:hover {
     margin:10px;
     font-size: 30px;
     width:30px;
-    box-shadow: 0 10px 10px black;
+    box-shadow: 0 4px 4px black;
 }
 .fa-instagram {
     background-color: rgb(221, 50, 50);
@@ -86,5 +89,4 @@ button:hover {
 }
 .contact-info-content {
     font-family:arial rounded mt;
-    padding-bottom:10px;
 }
