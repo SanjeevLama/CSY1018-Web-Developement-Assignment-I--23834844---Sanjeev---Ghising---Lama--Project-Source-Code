@@ -2,16 +2,22 @@
     margin:0;
     padding:0;
 }
+body {
+    background-image: url(file:///D:/Assignment/web-development-assignment1/Image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 .top-bar {
     display:flex;
     flex-direction: row-reverse;
     padding:10px;
-
 }
-ul {
+nav > ul {
     list-style-type:none;
     display:flex;
-}li {
+}
+nav > ul >li {
     padding:5px 15px;
 }
 a {
@@ -22,7 +28,6 @@ a {
     font-size: 20px;
     transition:0.2s;
 }
-
 li:hover {
     transform: translate(0px,-3px);
     background-color:rgba(255, 250, 250,.2);
