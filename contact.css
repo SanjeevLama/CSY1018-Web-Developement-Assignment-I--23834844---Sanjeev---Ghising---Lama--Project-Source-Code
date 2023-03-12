@@ -2,6 +2,7 @@
     display:flex;
     justify-content: center;
     margin-top: 60px;
+    
 }
 .contact {
     display:grid;
@@ -9,6 +10,7 @@
     background-color: rgba(255,255,255,.2);
     box-shadow: 0 0 10px;
     border-radius: 20px;
+    margin-bottom:20px;
 }
 .contact-header {
     font-size: 50px;
@@ -61,6 +63,7 @@ button:hover {
 }
 .social-icons > a {
     padding:15px;
+    text-decoration: none;
 }
 .fab {
     border-radius: 30px;
@@ -98,5 +101,11 @@ button:hover {
     }
     .contact-header {
         font-size:40px;
+    }
+    
+}
+@media screen and (max-height:680px) {
+    body {
+        height:100%;
     }
 }
