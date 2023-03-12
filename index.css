@@ -66,7 +66,7 @@
         width:50vw;
     }
     .name {
-        width: 35vw;
+        width: 40vw;
     }
     .name > p {
         font-size: 50px;
@@ -82,4 +82,9 @@
         padding-top:10px; 
     }
     
+}
+@media screen and (max-height:640px) {
+    body {
+        height:100%;
+    }
 }
