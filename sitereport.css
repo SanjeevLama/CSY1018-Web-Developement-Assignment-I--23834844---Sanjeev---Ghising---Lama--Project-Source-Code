@@ -58,7 +58,7 @@ h3 {
         bottom: 6cm;
     }
     .site-report {
-        grid-template-columns: 90vw;
+        grid-template-columns: 88vw;
     }
     .experience {
         grid-column: 1/1;
