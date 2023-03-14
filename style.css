@@ -14,9 +14,14 @@ body {
     justify-content: space-between;
     
 }
-.logo {
+.logo > a {
+    text-decoration: none;
+    color: black;
+}
+.logo > a > p  {
     font-size:40px;
     font-family:arial rounded mt;
+    padding-top:0;
 }
 nav > ul {
     list-style-type:none;
@@ -26,7 +31,7 @@ nav > ul >li {
     padding:5px 15px;
     
 }
-a {
+li > a {
     color: black;
     text-decoration: none;
     font-family: Arial Rounded MT,sans-serif;
@@ -55,39 +60,34 @@ nav {
     display:none;
 }
 @media screen and (max-width:1035px){
-     nav {
-        overflow:hidden;
-    }
     nav {
+        overflow:hidden;
         flex-direction: column;
         align-items: flex-end;
     }
     nav > ul {
         flex-direction: column;
         align-items: flex-end;
+        position: relative;
+        z-index: 1;
+        padding:5px 5px 0;
+        left:10cm;
+        transition:0.6s;
     }
     nav > ul > li {
         padding: 5px 0px;
         margin:5px 0;
     }
-    a {
+    li >  a {
         padding: 5px 5px;
     }
     .material-symbols-outlined > nav > label {
         display:inline;
     } 
-    .material-symbols-outlined > nav > ul {
-        padding:5px 5px 0;
-        position: relative;
-        left:10cm;
-        transition:0.6s;
-    }
     .material-symbols-outlined input[type="checkbox"]:checked ~ ul {
         left:0;
         background-color:aliceblue;
         border-radius: 15px;
-        position:relative;
-        z-index:1;
     }
     nav > ul > li:hover {
         transform: translate(0px,-3px);
